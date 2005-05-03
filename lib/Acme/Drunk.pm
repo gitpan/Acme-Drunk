@@ -5,7 +5,7 @@ require Exporter;
 use base qw[Exporter];
 use vars qw[$VERSION @EXPORT %EXPORT_TAGS];
 
-$VERSION     = '0.01';
+$VERSION     = '0.02';
 @EXPORT      = qw[MALE FEMALE drunk floz_to_etoh proof_to_percent];
 %EXPORT_TAGS = ( ':all' => \@EXPORT );
 
@@ -28,7 +28,7 @@ sub WIDMARK_BETA () { 0.017 };
 sub ETOH_WEIGHT () { 0.0514 }
 
 # 1987, Fitzgerald & Hume discover specific
-# gravity of blood is important, at 1.005 g/ml.
+# gravity of blood is important, at 1.055 g/ml.
 sub GRAVITY_OF_BLOOD () { 1.055 }
 
 # Body Alcohol Concentration
