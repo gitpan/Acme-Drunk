@@ -5,7 +5,7 @@ require Exporter;
 use base qw[Exporter];
 use vars qw[$VERSION @EXPORT %EXPORT_TAGS];
 
-$VERSION     = '0.02';
+$VERSION     = '0.03';
 @EXPORT      = qw[MALE FEMALE drunk floz_to_etoh proof_to_percent];
 %EXPORT_TAGS = ( ':all' => \@EXPORT );
 
